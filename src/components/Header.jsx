@@ -18,10 +18,10 @@ function Header() {
           color: '#0f172a'
         }}
       >
-        Route Navigation System
+        Google Maps inside a railway station
       </h1>
 
-      <p
+      {/* <p
         style={{
           marginTop: '6px',
           fontSize: '14px',
@@ -29,7 +29,7 @@ function Header() {
         }}
       >
         Find the best and safest route between locations
-      </p>
+      </p> */}
     </header>
   )
 }
