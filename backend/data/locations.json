@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "CSE Block",
+        "image": "/images/cse_block.jpg",
+        "description": "Computer Science and Engineering Department",
+        "latitude": 12.9720,
+        "longitude": 77.5950
+    },
+    {
+        "id": 2,
+        "name": "ECE Block",
+        "image": "/images/ece_block.jpg",
+        "description": "Electronics and Communication Engineering Department",
+        "latitude": 12.9730,
+        "longitude": 77.5960
+    },
+    {
+        "id": 3,
+        "name": "AIDS Block",
+        "image": "/images/aids_block.jpg",
+        "description": "AI and Data Science Department",
+        "latitude": 12.9710,
+        "longitude": 77.5940
+    }
+]

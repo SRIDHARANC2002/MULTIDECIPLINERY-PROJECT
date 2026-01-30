@@ -1,0 +1,117 @@
+.navigate-page-strict {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    /* For absolute positioning of Back button */
+}
+
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.back-button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Input Row */
+.input-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #333;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    padding: 0.5rem;
+    padding-right: 2.5rem;
+    /* Make room for the button */
+    border: 1px solid #333;
+    border-radius: 4px;
+    width: 250px;
+}
+
+.gps-button {
+    position: absolute;
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007bff;
+    transition: transform 0.2s;
+}
+
+.gps-button:hover {
+    transform: scale(1.1);
+    background: none;
+    /* Override default button hover */
+    border: none;
+}
+
+/* Main Split */
+.main-split {
+    display: flex;
+    flex: 1;
+    /* Takes remaining height */
+    overflow: hidden;
+}
+
+.map-area {
+    flex: 3;
+    /* 75% width */
+    border-right: 2px solid #333;
+    position: relative;
+}
+
+.output-panel {
+    flex: 1;
+    /* 25% width */
+    background-color: #fff;
+    overflow-y: auto;
+    border-left: 2px solid #333;
+    /* Explicit separation if needed */
+}
+
+/* Ensure global map styles fit */
+.map-wrapper {
+    border: none;
+}

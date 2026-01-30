@@ -1,0 +1,15 @@
+.main-header {
+    background: linear-gradient(to right, #f7f7f7, #e3e4e6);
+    /* Chrome, W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0 2px 5px rgba(239, 237, 237, 0.2);
+}
+
+.header-title {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,49 @@
+.main-footer {
+    background-color: #f1f1f1;
+    padding: 1.5rem;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.copyright {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.team-section {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 1rem;
+}
+
+.team-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.team-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.team-member {
+    color: #555;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
